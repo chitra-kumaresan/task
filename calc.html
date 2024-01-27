@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Calculator</title>
+    <div id="head">
+    <h1 id="title"> Calculator </h1>
+    <p id="description">I have designed "My Calculator".It can perform "Addition,Subtraction,Multiplication,Division"</p></div>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="calc.css"/>
+    
+   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+   
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+
+    <input type="text" placeholder="0" class="input" id="result"/>
+
+</div>
+<div class="container1">
+    <header id="header">
+<button onclick="Clear()" id="clear" type="button"class="button">C</button>
+<button onclick="del()" type="button"class="button">del</button>
+<button onclick="display('.')"type="button"class="button">.</button>
+<button onclick="display('*')" type="button"class="button">X</button>
+</header>
+</div>
+
+    <div class="container1">
+        <section1 >
+        <button  onclick="display('7')" type="button" class="button">7</button>
+        <button  onclick="display('8')"type="button"class="button">8</button>
+        <button onclick="display('9')" type="button"class="button">9</button>
+        <button onclick="display('/')" type="button"class="button">/</button>
+       
+    </section1>
+        </div>
+        <div class="container1">
+            <section2 >
+            <button onclick="display('4')"type="button" class="button">4</button>
+            <button onclick="display('5')"type="button"class="button">5</button>
+            <button onclick="display('6')"type="button"class="button">6</button>
+            <button onclick="display('-')"type="button" id="subtract" class="button">-</button> 
+        </section2>
+            </div>
+            <div class="container1">
+                <section3 id="section3">
+                <button onclick="display('1')"type="button" id="1"class="button">1</button>
+                <button onclick="display('2')"type="button" id="2" class="button">2</button>
+                <button onclick="display('3')"type="button" id="3" class="button">3</button>
+                <button onclick="display('+')"type="button" id="add" class="button">+</button>
+            </section3>
+                </div>
+                <div class="container1">
+                    <section4 id="section4">
+                    <button onclick="display('0')" type="button"class="button">0</button>
+                    <button onclick="display('00')"type="button"class="button">00</button>
+                    <button onclick="calc()"type="button" id="equal" class="button1">=</button> 
+                </section4>
+                    </div>
+                   
+
+
+
+
+
+</div>
+<script src="script.js"></script> 
+<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
